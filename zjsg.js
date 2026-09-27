@@ -5,7 +5,7 @@
 https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/taylortaurus/Yu9191/refs/heads/main/zjsg.js
 
 [mitm]
-hostname = wxapi.zhongyuedu.com
+hostname = integral2.zhijiantime.com, wxapi.zhongyuedu.com
 */
 const headers = Object.fromEntries(Object.entries($request.headers).map(([key, value]) => [key.toLowerCase(), value]));
 Object.assign(headers, {
