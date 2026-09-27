@@ -2,8 +2,7 @@
 指尖时光
 [rewrite_local]
 
-https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/Yu9191/Rewrite/main/zjsg.js
-
+https://integral2.zhijiantime.com url script-request-header https://raw.githubusercontent.com/taylortaurus/Yu9191/refs/heads/main/zjsg.js
 
 [mitm]
 hostname = wxapi.zhongyuedu.com
